@@ -3,14 +3,14 @@
 }
 
 body {
-    background-image: url("http://i.imgur.com/35dmg2Y.jpg");
+    background-image: url("http://wallpaperpanda.com/wallpapers/jTo/ekp/jToekpy8c.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .chat-log {
     font-size: 10pt;
-    background: url("http://i.imgur.com/MeALmsC.png") no-repeat scroll right bottom;
+    background: url ("http://cdn.bulbagarden.net/upload/thumb/3/36/350Milotic.png/250px-350Milotic.png") no-repeat scroll right bottom;
     background: #8080ff;
     color: #000;
     overflow: auto;
@@ -31,5 +31,7 @@ body {
 
 .userlist {
     border-left: 1px solid #D5DDE4;
-    background: #8080ff;
+    background: #4caac9;
 }
+.backdrop {
+	background-image: url("http://oceanexplorer.noaa.gov/explorations/deepeast01/background/complexity/media/complexity1_600.jpg") !important;
